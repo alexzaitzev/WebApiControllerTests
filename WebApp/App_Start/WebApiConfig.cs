@@ -10,7 +10,7 @@ namespace WebApp
         {
             config.MapHttpAttributeRoutes();
 
-            config.Routes.MapHttpRoute("users", "user", new { controller = "User" });
+            config.Routes.MapHttpRoute("users", "users", new { controller = "User" });
 
             var container = new UnityContainer();
             container.RegisterType<IRegistrationService, RegistrationService>();

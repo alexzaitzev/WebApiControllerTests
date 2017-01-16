@@ -1,0 +1,6 @@
+.vs
+WebApp.Tests/obj/
+packages
+WebApp/obj/
+WebApp.Tests/bin/
+WebApp/bin/
